@@ -14,7 +14,7 @@ tags:
      description: Содержит методы для работы с пользователями
 
 paths:
-  /auth/v1/register:
+  auth/v1/register:
     post:
       tags:
         - Auth
@@ -40,7 +40,7 @@ paths:
         '500':
           $ref: '#/components/responses/500InternalServerError'
 
-  /auth/v1/login:
+  auth/v1/login:
     post:
       tags:
         - Auth
@@ -66,7 +66,7 @@ paths:
         '500':
           $ref: '#/components/responses/500InternalServerError'
 
-  /auth/v1/refresh:
+  auth/v1/refresh:
     post:
       tags:
         - Auth
@@ -90,7 +90,7 @@ paths:
         '500':
           $ref: '#/components/responses/500InternalServerError'
 
-  /auth/v1/logout:
+  auth/v1/logout:
     post:
       tags:
         - Auth
@@ -116,7 +116,7 @@ paths:
         '500':
           $ref: '#/components/responses/500InternalServerError'
 
-  /auth/v1/me:
+  auth/v1/me:
     post:
       tags:
         - Auth
