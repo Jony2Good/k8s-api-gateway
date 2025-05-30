@@ -121,4 +121,4 @@ kubectl apply -f k8s/auth-service
 ```
 
 [1]: https://github.com/Jony2Good/assets/blob/main/gateway-schema.png "Схема"
-[2]: https://github.com/Jony2Good/k8s-helm/blob/main/openapi.yaml "Спецификация"
+[2]: https://github.com/Jony2Good/k8s-api-gateway/blob/main/openapi.yaml "Спецификация"
