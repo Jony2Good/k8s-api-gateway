@@ -58,7 +58,7 @@ helm install prometheus prometheus-community/kube-prometheus-stack --namespace k
 **Инициализируем манифесты**
 
 ```
-kubectl apply -f k8s/api-gateway
+kubectl apply -f api-gateway/
 ```
 
 ### Установка ingress-nginx + конфигурация Prometheus
@@ -117,7 +117,7 @@ C:\Windows\System32\drivers\etc\hosts
 **Инициализируем манифесты**
 
 ```
-kubectl apply -f k8s/auth-service
+kubectl apply -f auth-service/
 ```
 
 [1]: https://github.com/Jony2Good/assets/blob/main/gateway-schema.png "Схема"
